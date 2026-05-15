@@ -56,10 +56,6 @@ const Login = () => {
           <p className="text-muted">Enter your credentials to access the system</p>
         </div>
 
-        <div className="auth-demo-hint">
-          <p><strong>Demo Roles:</strong></p>
-          <p>Admin: admin@ / Customer: user@ / Tech: tech@</p>
-        </div>
 
         <form onSubmit={handleSubmit} className="auth-form">
           <div className="input-group">
